@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "node app.js",
-    "tst": "APP_ENV=testing node app.js",
-    "accept": "APP_ENV=acceptance node app.js",
-    "prod": "APP_ENV=production node app.js",
+    "dev": "node ./src/app.js",
+    "tst": "APP_ENV=testing node ./src/app.js",
+    "accept": "APP_ENV=acceptance node ./src/app.js",
+    "prod": "APP_ENV=production node ./src/app.js",
+    "lint": "./node_modules/.bin/eslint ././src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Shahrokh",
