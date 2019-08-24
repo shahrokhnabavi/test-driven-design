@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "node app.js",
+    "tst": "APP_ENV=testing node app.js",
+    "accept": "APP_ENV=acceptance node app.js",
+    "prod": "APP_ENV=production node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shahrokh",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-standard": "^14.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "winston": "^3.2.1"
+  }
+}
