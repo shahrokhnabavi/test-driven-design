@@ -1,8 +1,13 @@
 /* eslint-disable no-unmodified-loop-condition */
 'use strict';
 
+/** @type {boolean} **/
 let isRunning = true;
 
+/**
+ * @param {number} timeoutMilliseconds
+ * @returns {Promise<any>}
+ */
 const sleep = (timeoutMilliseconds) => {
     return new Promise(resolve => { setTimeout(resolve, timeoutMilliseconds); });
 };

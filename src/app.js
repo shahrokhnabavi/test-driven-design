@@ -3,7 +3,7 @@
 /** @type {AppConfig} **/
 const config = require('./lib/Configuration');
 const logger = require('./lib/Logger')(config);
-const { TerminateScheduler, RunScheduler } = require('./lib/Scheduler');
+const { TerminateScheduler, RunScheduler } = require('./lib/Scheduler/Scheduler');
 
 const doProcess = () => {
     const processDuration = Math.round(Math.random() * 5000) + 1000;
